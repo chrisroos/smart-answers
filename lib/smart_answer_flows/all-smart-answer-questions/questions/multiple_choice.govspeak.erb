@@ -1,0 +1,17 @@
+<% content_for :title do %>
+  Multiple choice: Would you like to see the other questions?
+<% end %>
+
+<% options(
+  "yes": "Yes",
+  "no": "No",
+  "maybe": "Maybe"
+) %>
+
+<% content_for :hint do %>
+  This is a hint
+<% end %>
+
+<% content_for :error_message do %>
+  Of course you would!
+<% end %>
